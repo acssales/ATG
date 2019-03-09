@@ -1,0 +1,23 @@
+<div>
+	<h2>Calculadora de conversões:</h2>
+	
+		Moeda de origem: 
+		<select [(ngModel)]="fromCurr" name = "fromCurrency">
+			<option *ngFor="let fcurrency of currencies" value={{fcurrency.value}}>{{fcurrency.code}}</option>
+		</select>
+    <label > quantidade:
+      <input [(ngModel)]="amount" placeholder="0.0">
+    </label>
+		
+	<p></p>
+	
+		Moeda de destino:
+		<select [(ngModel)]="toCurr" name = "toCurrency">
+			<option *ngFor="let tcurrency of currencies" >{{tcurrency.code}}</option>
+		</select>
+	
+	<p></p>
+	
+	Conversão: {{amount}}
+	
+</div>

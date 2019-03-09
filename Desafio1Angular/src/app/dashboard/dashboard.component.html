@@ -3,8 +3,9 @@
 	<a *ngFor="let currency of currencies" class="col-1-4"
 	    routerLink="/detail/{{currency.code}}">
 	  <div class="module hero">
-	    <h4>{{currency.name}}({{currency.code}})</h4>
+	    <h4>{{currency.name}} ({{currency.code}})</h4>
 			{{currency.value}}
 	  </div>
 	</a>
 </div>
+<app-calculator></app-calculator>

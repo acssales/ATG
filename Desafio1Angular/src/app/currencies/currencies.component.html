@@ -1,0 +1,8 @@
+<h2>My Currencies</h2>
+<ul class="heroes">
+  <li *ngFor="let currency of currencies">
+    <a routerLink="/detail/{{currency.code}}">
+      <span class="badge">{{currency.code}}</span> {{currency.name}}
+    </a>
+  </li>
+</ul>

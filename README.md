@@ -2,7 +2,7 @@
 Código Relativo aos desafios para a vaga de Estágio em Desenvolvimento
 
 
-Desafio 1)
+## Desafio 1)
 
 Monte uma página web em AngularJS que contenha:
 
@@ -18,14 +18,16 @@ Pode utilizar npm, yarn, o que achar melhor. Como conversamos, se preferir, pode
 
  
 
-Desafio 2)
+## Desafio 2)
 
 Escreva um programa que receba um número e depois uma lista circularmente ordenada (sem repetições) separada por virgula e que responda, o mais rápido possível, se um número pertence ou não à lista. Pode ser feito em C/C++/C#.
 
-Exemplos:
+*Exemplos:*
 
+```
 Entrada: 5 2,3,4,0,1                                Saída: não
 
 Entrada: 4 2,3,4,0,1                                Saída: sim
 
-Entrada: 3 4,6,11,-1,1,2,3                      Saída: sim
+Entrada: 3 4,6,11,-1,1,2,3                          Saída: sim
+```
